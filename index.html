@@ -1,55 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Law Blog</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
 </head>
+
 <body>
   <header>
-    <!-- ... Your header code ... -->
+    <nav>
+      <h1>Law Blog</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h2>Welcome to the Law Blog</h2>
+      <p>Stay up to date with the latest legal news and insights.</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
   </header>
 
-  <section id="hero">
-    <!-- ... Your hero section code ... -->
-  </section>
-
-  <section id="featured">
-    <!-- ... Your featured articles section code ... -->
-  </section>
-
-  <section id="about">
-    <!-- ... Your about section code ... -->
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>For any inquiries or questions, feel free to reach out to us:</p>
-      <ul>
-        <li>Email: info@example.com</li>
-        <li>Phone: +1 123 456 7890</li>
-        <li>Address: 123 Main Street, City, Country</li>
-      </ul>
-      <form id="upload-form" enctype="multipart/form-data">
-        <h3>Upload PDF</h3>
-        <input type="file" accept=".pdf" id="pdf-upload" name="pdf">
-        <button type="submit">Upload</button>
-      </form>
-
-      <div id="pdf-list">
-        <h3>Uploaded PDFs</h3>
-        <ul id="pdf-items"></ul>
+  <main>
+    <section class="articles">
+      <h2>Latest Articles</h2>
+      <div class="article">
+        <img src="article-image1.jpg" alt="Article Image">
+        <h3>Understanding Intellectual Property Rights</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ex nec mauris efficitur hendrerit ac sed mauris.</p>
+        <a href="#" class="btn">Read More</a>
       </div>
-    </div>
-  </section>
+      <div class="article">
+        <img src="article-image2.jpg" alt="Article Image">
+        <h3>The Importance of Contracts in Business</h3>
+        <p>Curabitur id tincidunt ex. Mauris eu tellus vitae ipsum auctor consequat. Pellentesque et odio a arcu tempor ultrices.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>About Us</h2>
+      <img src="about-image.jpg" alt="About Image">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget ex nec mauris efficitur hendrerit ac sed mauris.</p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
 
   <footer>
-    <!-- ... Your footer code ... -->
+    <p>&copy; 2023 Law Blog. All rights reserved.</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
+
 </html>
+
+
 
